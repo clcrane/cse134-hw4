@@ -1,0 +1,31 @@
+main {
+    max-width: var(--measure);
+    margin-inline: auto;
+    padding: var(--space-3);
+}
+
+.about-figure {
+    float: right;
+    width: min(40%, 16rem);
+    margin: 0 0 var(--space-2) var(--space-3);
+}
+
+.about-figure img {
+    width: 100%;
+    height: auto;
+}
+
+.about-figure figcaption {
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+main::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.clear-float {
+    clear: both;
+}

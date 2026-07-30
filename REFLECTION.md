@@ -1,1 +1,10 @@
+# Reflection
 
+## What did you repeat by hand?
+One thing I noticed while working on this project was how much HTML I repeated. Every page had the same header, navigation bar, footer, and links to the CSS files. The four cheese family pages were especially repetitive because they all had the same layout and structure, with only the text and images changing. I also copied similar CSS rules between pages whenever I wanted them to have the same appearance. It made me realize how much duplicated code can exist in a static website and why developers use templates or reusable components to avoid repeating the same work.
+
+## What broke when you moved a file?
+The biggest issue I ran into happened when I moved the cheese family pages into the `guide` folder. All of my navigation links stopped working because the relative file paths changed. Images and CSS files also needed different paths since they were now one directory deeper. I had to go back and update many of the links by adding `../` so the pages could correctly find files in the parent directory. Although it was frustrating at first, it helped me better understand how relative paths work and why organizing a project's folder structure early is important.
+
+## What would you want a tool to generate for you?
+If I could automate one part of this project, I would want a tool that could generate the repeated page structure for me. Being able to create one template with the common header, navigation, footer, and layout, then automatically fill in the unique content for each page, would save a lot of time and reduce mistakes. I would also like a tool that automatically updates file paths whenever pages or folders are moved, since that was the biggest source of errors during this assignment. Overall, this project showed me that while HTML and CSS are fairly straightforward, keeping a larger website organized and consistent becomes much easier when using reusable templates and automation.
