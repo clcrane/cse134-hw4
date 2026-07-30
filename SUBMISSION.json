@@ -1,6 +1,4 @@
 {
-  "name": "Carolyn Crane",
-  "pid": "A18403525",
-  "github": "https://github.com/clcrane/cse134-hw4",
-  "deploy": "https://clcrane.github.io/cse134-hw4/"
+  "repository": "https://github.com/clcrane/cse134-hw4",
+  "deployment": "https://clcrane.github.io/cse134-hw4/"
 }
